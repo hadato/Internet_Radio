@@ -14,5 +14,11 @@ Note: For the purposes, Raspberry Zero with an additional USB hub or an non-USB 
 ## Software
 The Raspberry Pi runs Raspbian with a SSH possibility. During the start-up, a simple service radio.py based on libVLC is started. The service checks for the interrupts from the buttons and behave accordingly. In addition, information to be shown is sent over I2C to the display. If the NEXT/PREVIOUS button is pressed, the service reads next/previous station from a station list saved in an external text file (the name and the station address are hardcoded). If the power switch is toggled to position OFF, the service send a command to turn the raspberry system off. After ca. 20 s, the power is switched off by switching off a relay (delay circuit). 
 
-## To be done
+## To Be Done
 So far the station name is hardcoded and no meta data are read from the internet stations. Hence, no more information are available (song name, song duration, author, ...). The logical step is to implement the meta data read-out.
+
+## All Pictures
+![Radio 2](https://github.com/hadato/Internet_Radio/blob/master/DSCN5457.JPG)
+![Radio 3](https://github.com/hadato/Internet_Radio/blob/master/DSCN5456.JPG)
+![Radio 4](https://github.com/hadato/Internet_Radio/blob/master/DSCN5459.JPG)
+![Radio 5](https://github.com/hadato/Internet_Radio/blob/master/DSCN5460.JPG)
