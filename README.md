@@ -1,7 +1,7 @@
 # Internet_Radio
 This is a simple project of an internet radio for a senior person based on Raspberry Pi 3B. 
 
-![Final look](https://github.com/hadato/Binary_Watch/blob/master/Top_final.PNG)
+![Radio 1](https://github.com/hadato/Internet_Radio/blob/master/DSCN5457.JPG)
 
 ## Motivation
 After a long search for an internet radio which would be suitable for a senior person struggling even with basic technology ( such as TV, dumb phone), the idea was clear. There was a need for a simple internet radio with just few buttons and a volume control. In addition, all stations had to be preinstalled so the radio would be just: Turn ON/OFF, change the station, change the volume. 
